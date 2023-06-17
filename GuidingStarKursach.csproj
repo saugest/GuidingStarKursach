@@ -59,6 +59,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Dices.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DMPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -77,6 +81,9 @@
     </Compile>
     <Compile Include="Attacks.xaml.cs">
       <DependentUpon>Attacks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dices.xaml.cs">
+      <DependentUpon>Dices.xaml</DependentUpon>
     </Compile>
     <Compile Include="DMPage.xaml.cs">
       <DependentUpon>DMPage.xaml</DependentUpon>
