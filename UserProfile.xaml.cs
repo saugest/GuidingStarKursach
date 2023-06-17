@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace GuidingStarKursach
 {
     /// <summary>
-    /// Логика взаимодействия для DMPage.xaml
+    /// Логика взаимодействия для UserProfile.xaml
     /// </summary>
-    public partial class DMPage : Page
+    public partial class UserProfile : Page
     {
-        public DMPage()
+        public UserProfile()
         {
             InitializeComponent();
         }
-
-        private void back_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new PageOfChange());
-        }
-
-        
+    }
 }

@@ -9,7 +9,22 @@
       Title="DMPage">
 
     <Grid Background="Wheat">
-        <Button x:Name="back" Content="Back" HorizontalAlignment="Left" Height="89" Margin="10,10,0,0" VerticalAlignment="Top" Width="176" Click="back_Click"/>
+        <Button x:Name="back" Content="Back" HorizontalAlignment="Left" Height="59" Margin="10,10,0,0" VerticalAlignment="Top" Width="90" Click="back_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.996"/>
+                    <RotateTransform Angle="0.617"/>
+                    <TranslateTransform Y="-0.983"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <ComboBox HorizontalAlignment="Left" Height="37" Margin="10,86,0,0" VerticalAlignment="Top" Width="89"/>
+        <Button Content="Assets" HorizontalAlignment="Left" Height="38" Margin="10,140,0,0" VerticalAlignment="Top" Width="89"/>
+        <Button Content="NPC" HorizontalAlignment="Left" Height="42" Margin="10,198,0,0" VerticalAlignment="Top" Width="89"/>
+        <Button Content="Dices" HorizontalAlignment="Left" Height="49" Margin="10,264,0,0" VerticalAlignment="Top" Width="89"/>
+        <Button Content="Lore" HorizontalAlignment="Left" Height="40" Margin="10,341,0,0" VerticalAlignment="Top" Width="89"/>
+        <Button Content="Rules" HorizontalAlignment="Left" Height="39" Margin="10,401,0,0" VerticalAlignment="Top" Width="89"/>
 
     </Grid>
 </Page>

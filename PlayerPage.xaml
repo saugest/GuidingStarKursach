@@ -9,9 +9,12 @@
       Title="PlayerPage">
 
     <Grid Background="White">
-        <Button x:Name="Back" Content="Back" HorizontalAlignment="Left" Height="75" Margin="10,10,0,0" VerticalAlignment="Top" Width="143" Click="Back_Click"/>
-        <Button x:Name="Attacks" Content="Attacks" HorizontalAlignment="Left" Height="89" Margin="10,111,0,0" VerticalAlignment="Top" Width="143" Click="Button_Click"/>
-        <Button x:Name="Inventory" Content="Inventory" HorizontalAlignment="Left" Height="97" Margin="10,225,0,0" VerticalAlignment="Top" Width="143" Click="Inventory_Click"/>
+        <Button x:Name="Back" Content="Back" HorizontalAlignment="Left" Height="51" Margin="10,29,0,0" VerticalAlignment="Top" Width="80" Click="Back_Click"/>
+        <Button x:Name="Attacks" Content="Attacks" HorizontalAlignment="Left" Height="70" Margin="10,85,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click"/>
+        <Button x:Name="Inventory" Content="Inventory" HorizontalAlignment="Left" Height="77" Margin="10,160,0,0" VerticalAlignment="Top" Width="80" Click="Inventory_Click"/>
+        <Button Content="Biography" HorizontalAlignment="Left" Height="45" Margin="10,244,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Content="Dices" HorizontalAlignment="Left" Height="51" Margin="10,294,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Content="Rules" HorizontalAlignment="Left" Height="45" Margin="10,350,0,0" VerticalAlignment="Top" Width="80"/>
 
     </Grid>
 </Page>
