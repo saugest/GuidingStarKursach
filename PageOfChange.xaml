@@ -9,7 +9,8 @@
       Title="PageOfChange">
 
     <Grid Background="White">
-        <Button Content="Button" HorizontalAlignment="Left" Height="106" Margin="280,149,0,0" VerticalAlignment="Top" Width="306"/>
+        <Button x:Name="DungeonMaster" Content="Dungeon Master" HorizontalAlignment="Left" Height="106" Margin="441,201,0,0" VerticalAlignment="Top" Width="306" Click="DungeonMaster_Click"/>
+        <Button x:Name="Player" Content="Player" HorizontalAlignment="Left" Height="106" Margin="68,196,0,0" VerticalAlignment="Top" Width="306" Click="Player_Click"/>
 
     </Grid>
 </Page>

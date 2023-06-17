@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Katya\Desktop\GuidingStarKursach\obj\Debug\
+C:\Users\Katya\Desktop\GuidingStarKursach\GuidingStarKursach\obj\Debug\
 GuidingStarKursach
 none
 false
 DEBUG;TRACE
-C:\Users\Katya\Desktop\GuidingStarKursach\App.xaml
-21366413981
+C:\Users\Katya\Desktop\GuidingStarKursach\GuidingStarKursach\App.xaml
+6-1691571506
 
-6-2108568695
+101233620736
 13-1310406943
-MainWindow.xaml;PageOfChange.xaml;
+Attacks.xaml;DMPage.xaml;Inventory.xaml;MainWindow.xaml;PageOfChange.xaml;PlayerPage.xaml;
 
 False
 
