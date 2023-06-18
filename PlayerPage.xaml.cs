@@ -39,5 +39,6 @@ namespace GuidingStarKursach
         {
             NavigationService.Navigate(new Inventory());
         }
+        
     }
 }
